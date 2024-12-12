@@ -1,3 +1,7 @@
-flask
-amadeus
-gunicorn
+Flask==2.3.0
+Flask-SQLAlchemy==3.0.0
+Flask-JWT-Extended==4.4.0
+Flask-Bcrypt==1.0.1
+flask-cors==1.1.2
+python-dotenv==1.0.0
+amadeus==5.0.0

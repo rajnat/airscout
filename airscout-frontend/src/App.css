@@ -22,19 +22,6 @@
   }
 }
 
-/* Center the form and style it */
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-  background-color: #282c34;
-  color: white;
-  min-height: 100vh;
-}
-
 .search-form {
   display: flex;
   flex-wrap: wrap;
@@ -124,4 +111,75 @@ h1 {
 .react-autosuggest__suggestion--highlighted {
   background-color: #007bff;
   color: white;
+}
+
+/* Center the login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f; /* Dark background for contrast */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Input fields */
+.login-form label {
+  font-size: 16px;
+  color: #42D0DE; 
+  margin-bottom: 10px;
+  align-self: flex-start; /* Align labels to the left */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Input hover and focus effects */
+.login-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Login button */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the entire form section */
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2d2d2d; /* Dark background */
+}
+.welcome-header {
+  font-size: 36px;
+  color: #42D0DE;
+  text-align: center;
+  margin-bottom: 20px;
 }

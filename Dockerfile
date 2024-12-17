@@ -14,6 +14,7 @@ COPY requirements.txt /app/
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# TODO build the frontend and copy the dist.
 # Copy the rest of the application code
 COPY . /app/
 
